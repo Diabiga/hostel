@@ -1,0 +1,24 @@
+<ng-template #loginModalContent>
+    <div class="modal-header">
+        <h4 class="modal-title">Connexion</h4>
+        <button type="button" class="close" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+    <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur</label>
+                <input type="text" class="form-control" id="username" placeholder="Nom d'utilisateur">
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" class="form-control" id="password" placeholder="Mot de passe">
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Connexion</button>
+        <button type="button" class="btn btn-secondary">Fermer</button>
+    </div>
+</ng-template>

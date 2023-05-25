@@ -1,18 +1,15 @@
 import { Component } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-detail',
+  templateUrl: './detail.component.html',
+  styleUrls: ['./detail.component.css']
 })
-export class AppComponent {
-  title = 'AIBNB_V2';
+export class DetailComponent {
   constructor(private modalService: NgbModal) {
   }
 
   public open(modal: any): void {
     this.modalService.open(modal);
   }
-
 }
